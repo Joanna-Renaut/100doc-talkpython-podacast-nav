@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Work Sans, sans-serif;
+}
+
+header {
+    height: 50px;
+}
+.custom-nav {
+    display: flex;
+    background-color: #222222;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+}
+
+.custom-nav li {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.white-text {
+    color: #FFFFFF
+}
+
+.green-text {
+    color: #5CB85C
+}
+
+.yellow-text {
+    color: #dcdc71;
+}
+
+.custom-nav li a {
+    color: #9E9E9E;
+    text-decoration: none;
+}
+
+.tp-logo {
+    height: 38px;
+    width: 38px;
+    padding-left: 335px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+#name {
+    padding-left: 10px;
+    padding-right: 335px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.hero-image {
+    background-image: url(https://cdn-podcast.talkpython.fm/static/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 825px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image-content {
+    text-align: center;
+}
+
+.hero-image-content h1 {
+    font-size: 87px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.hero-image-content p {
+    font-size: 25px;
+    margin-top: 0;
+    padding-top: 0;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-shadow: 2px 2px 0 #000;
+
+}
+
+.line-section {
+    text-align: center;
+}
+
+.line-section hr {
+    width: 55%;
+    border: 0;
+    border-top: 1px solid #FFFFFF;
+    margin: 0 auto;
+}
+
+.white-text, .green-text, .yellow-text {
+    padding: 0;
+    margin: 0;
+}
+
+li, span {
+    white-space: normal;
+}
+
+.hover-highlight:hover .green-text {
+    background-color: #222222;
+    color: #FFFFFF;
+}
