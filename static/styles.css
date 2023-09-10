@@ -5,12 +5,12 @@ body {
 
 header {
     height: 50px;
+    background-color: #222222;
 }
 .custom-nav {
     display: flex;
-    background-color: #222222;
-    width: 100%;
-    margin: 0;
+    width: 1200px;
+    margin: 0 auto;
     align-items: center;
 }
 
@@ -41,15 +41,15 @@ header {
 .tp-logo {
     height: 38px;
     width: 38px;
-    padding-left: 335px;
     border-radius: 50% 50% 50% 50%;
 }
 
 #name {
-    padding-left: 10px;
-    padding-right: 335px;
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: normal;
+    flex-grow: 1;
+    letter-spacing: 1.1px;
+    padding: 0;
 }
 
 .hero-image {
